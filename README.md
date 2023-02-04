@@ -62,7 +62,7 @@ CUDA_VISIBLE_DEVICES=6,7; python -m torch.distributed.run --master_port 47784 --
 #### Lexicon-aware Retriever (LEX (Warm-up)):
 
 ```shell
-# first-stage dense retriever with best recipe we found
+# first-stage lexicon-aware retriever with best recipe we found
 export DATA_DIR=[DATA_DIR]
 # official here indicates BM25 negatives.
 python3 -m proj_sparse.train_splade_retriever \
@@ -142,7 +142,7 @@ python -m proj_sparse.generate_sparse_hard_negs \
 ##### Step 2: Train Stage 2 Model with Static Hard Negs
 
 ```shell
-# first-stage lexicon-aware retriever with best recipe we found
+# second-stage lexicon-aware retriever with best recipe we found
 export DATA_DIR=[DATA_DIR]
 
 python -m proj_sparse.train_splade_retriever_continue \
