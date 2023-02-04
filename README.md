@@ -29,12 +29,7 @@ Install `Java` and refers to [Anserini](https://github.com/castorini/anserini) t
 
 // you may need to re-search the hyperparameters when using multiple GPUs.
 
-## Launch
-
-Use proj_dense/train_dense_retriever to train DEN (Warmup) and DEN (Continue).
-Use proj_sparse/train_dense_retriever to train LEX (Warmup) and LEX (Continue).
-Use proj_dense/train_LED_retriever to train LED.
-Use proj_dense/train_LED_w_RT to train LED (w/ RT).
+## Training
 
 ### Stage 1: Warm-up 
 
