@@ -1,5 +1,7 @@
-# Env Setups
+# LED: Lexicon-Enlightened Dense Retriever for Large-Scale Retrieval
+Source code of [LED: Lexicon-Enlightened Dense Retriever for Large-Scale Retrieval (WWW 2023)](https://arxiv.org/pdf/2208.13661.pdf)
 
+# Env Setups
 All these must be done in Conda Env
 
 ## Mandatory
