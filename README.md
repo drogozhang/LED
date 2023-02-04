@@ -1,7 +1,7 @@
 # LED: Lexicon-Enlightened Dense Retriever for Large-Scale Retrieval
 Source code of [LED: Lexicon-Enlightened Dense Retriever for Large-Scale Retrieval (WWW 2023)](https://arxiv.org/pdf/2208.13661.pdf)
 
-# ![Workflow_LED](https://github.com/drogozhang/LED/blob/master/Workflow_LED.png)
+# ![Workflow_LED](https://github.com/drogozhang/LED/blob/main/Workflow_LED.png)
 
 # Env Setups
 
