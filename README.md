@@ -24,7 +24,7 @@ conda install -c conda-forge faiss-gpu
 
 ### For LEX:
 
-Install `Java` and refers to [Anserini](https://github.com/castorini/anserini) to make LEX can inference.
+Please refer to [Anserini](https://github.com/castorini/anserini) to support LEX inference (for evaluation & self hard negative mining).
 
 ## Infrastructures Tested
 
