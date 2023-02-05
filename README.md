@@ -90,7 +90,7 @@ python3 -m proj_sparse.train_splade_retriever \
 
 ### Stage 2: Continue Training
 
-#### Dense Retriever (DEN (Continue) baseline)
+#### Dense Retriever (DEN (Continue))
 
 ##### Step 1: Generate hard negatives
 
