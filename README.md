@@ -241,7 +241,7 @@ If you find our code helpful, please cite our paper:
 
 
 ```
-@inproceedings{Zhangh2023LED,
+@inproceedings{Zhang2023LED,
   title={LED: Lexicon-Enlightened Dense Retriever for Large-Scale Retrieval},
   author={Kai Zhang, Chongyang Tao, Tao Shen, Can Xu, Xiubo Geng, Binxing Jiao, Daxin Jiang},
   booktitle={Proceedings of WWW 2023},
