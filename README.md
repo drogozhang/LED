@@ -237,7 +237,7 @@ python -m proj_dense.train_LED_w_RT \
 
 ## Citation
 
-If you find our code helpful, please cite our paper:
+If you find our code helpful, please cite our paper: (the url is not available yet)
 
 
 ```
@@ -245,6 +245,8 @@ If you find our code helpful, please cite our paper:
   title={LED: Lexicon-Enlightened Dense Retriever for Large-Scale Retrieval},
   author={Kai Zhang, Chongyang Tao, Tao Shen, Can Xu, Xiubo Geng, Binxing Jiao, Daxin Jiang},
   booktitle={Proceedings of WWW 2023},
+  url      ={https://doi.org/10.1145/3543507.3583294},
+  doi      ={10.1145/3543507.3583294},
   year={2023}
 }
 ```
