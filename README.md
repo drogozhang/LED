@@ -24,7 +24,7 @@ conda install -c conda-forge faiss-gpu
 
 ### For LEX:
 
-Install `Java` and refers to [Anserini](https://github.com/castorini/anserini) to make LEX can inference.
+Please refer to [Anserini](https://github.com/castorini/anserini) to support LEX inference (for evaluation & self hard negative mining).
 
 ## Infrastructures Tested
 
@@ -90,7 +90,7 @@ python3 -m proj_sparse.train_splade_retriever \
 
 ### Stage 2: Continue Training
 
-#### Dense Retriever (DEN (Continue) baseline)
+#### Dense Retriever (DEN (Continue))
 
 ##### Step 1: Generate hard negatives
 
@@ -241,7 +241,7 @@ If you find our code helpful, please cite our paper: (the url is not available y
 
 
 ```
-@inproceedings{Zhangh2023LED,
+@inproceedings{Zhang2023LED,
   title={LED: Lexicon-Enlightened Dense Retriever for Large-Scale Retrieval},
   author={Kai Zhang, Chongyang Tao, Tao Shen, Can Xu, Xiubo Geng, Binxing Jiao, Daxin Jiang},
   booktitle={Proceedings of WWW 2023},
