@@ -22,6 +22,27 @@ pip install gpustat ipython jupyter datasets accelerate sklearn tensorboard nltk
 conda install -c conda-forge faiss-gpu
 ```
 
+## Overview of Data Dir
+
+$DATA_DIR/
+--msmarco/
+----collection.tsv
+----collection.tsv.title.tsv (titles, copied from https://github.com/texttron/tevatron)
+----passage_ranking/
+------train.query.txt [502939 lines]
+------qrels.train.tsv [532761 lines] 
+------train.negatives.tsv [400782 lines] (BM25 negatives, copied from tevatron)
+------dev.query.txt [6980 lines]
+------qrels.dev.tsv [7437 lines] 
+------top1000.dev [6668967 lines] 
+------test2019.query.txt [200 lines]  
+------qrels.test2019.tsv [9260 lines] 
+------top1000.test2019 [189877 lines] 
+If not specified, please download the file from official, https://microsoft.github.io/msmarco/Datasets, and then rename it accordingly.
+
+
+
+
 ### For LEX:
 
 Please refer to [Anserini](https://github.com/castorini/anserini) to support LEX inference (for evaluation & self hard negative mining).
