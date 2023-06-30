@@ -24,6 +24,7 @@ conda install -c conda-forge faiss-gpu
 
 ## Overview of Data Dir
 
+```
 $DATA_DIR/
 --msmarco/
 ----collection.tsv
@@ -38,8 +39,8 @@ $DATA_DIR/
 ------test2019.query.txt [200 lines]  
 ------qrels.test2019.tsv [9260 lines] 
 ------top1000.test2019 [189877 lines] 
+```
 If not specified, please download the file from official, https://microsoft.github.io/msmarco/Datasets, and then rename it accordingly.
-
 
 
 
