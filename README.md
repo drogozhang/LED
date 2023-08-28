@@ -266,7 +266,7 @@ If you find our code helpful, please cite our paper: (the url is not available y
 @inproceedings{Zhang2023LED,
   title={LED: Lexicon-Enlightened Dense Retriever for Large-Scale Retrieval},
   author={Kai Zhang, Chongyang Tao, Tao Shen, Can Xu, Xiubo Geng, Binxing Jiao, Daxin Jiang},
-  booktitle={Proceedings of WWW 2023},
+  booktitle={Proceedings of WWW},
   url      ={https://doi.org/10.1145/3543507.3583294},
   doi      ={10.1145/3543507.3583294},
   year={2023}
